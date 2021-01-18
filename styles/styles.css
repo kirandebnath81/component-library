@@ -1,0 +1,145 @@
+/* nav */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+}
+
+:root {
+  --primary-color: #ef4444;
+  --secondary-color: #fee2e2;
+}
+
+/* nav */
+
+.navigation {
+  max-width: 80%;
+  color: black;
+  background-color: var(--primary-color);
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 0px auto;
+}
+
+.brand-name {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  font-size: 1.1rem;
+}
+
+.link-active {
+  font-weight: bold;
+}
+
+.list-item {
+  list-style: none;
+  display: inline-block;
+}
+.lists {
+  text-align: right;
+}
+
+/* links */
+
+.link-primary {
+  background-color: var(--primary-color);
+  padding: 8px 20px;
+  border-radius: 10px;
+}
+.link-secondary {
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 5px 15px;
+  border-radius: 10px;
+  margin: 0px auto;
+}
+
+.link-button {
+    
+  text-align: center;
+}
+
+/* footer */
+.footer {
+  background-color: var(--primary-color);
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 20px;
+  max-width: 80%;
+  margin: 0px auto;
+}
+
+.footer-text {
+  font-size: 1.4rem;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.social-media {
+  max-width: 25px;
+}
+.list-icons {
+  text-align: center;
+  margin-top: 40px;
+  padding: 0px;
+}
+
+/* header */
+
+.header {
+  margin: 100px auto;
+}
+.header-img {
+  max-width: 600px;
+  display: block;
+  margin: 50px auto;
+}
+.header-text {
+  text-align: center;
+}
+.header-heading {
+  font-size: 5rem;
+  font-weight: bold;
+}
+.header-para-text {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header-para-text > span {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
+
+/* section */
+
+.container-one {
+  background-color: var(--secondary-color);
+  padding: 50px;
+  border-radius: 20px;
+  max-width: 50%;
+  margin: 100px auto;
+}
+.container-center {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.container-two {
+  padding: 50px;
+  max-width: 60%;
+  margin: 0px auto;
+}
+.section-img {
+  max-width: 350px;
+  display: block;
+  margin: 0px auto;
+}
